@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Menu from './components/Menu';
-import BannerMain from './components/BannerMain';
-import Carousel from './components/Carousel';
-import Footer from './components/Footer';
-import dadosIniciais from './data/dados_iniciais.json'
+import Menu from '../../components/Menu';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
+import dadosIniciais from '../../data/dados_iniciais.json'
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ background: "#141414" }}>
       <Menu/>
 
       <BannerMain 
