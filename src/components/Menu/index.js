@@ -9,7 +9,7 @@ function Menu() {
             <a href="/" className=""> 
                 <img className="Logo" src={Logo} alt="logo thingsflix"></img>
             </a>
-            <ButtonLink className="ButtonLink" href="#">Novo Vídeo</a>
+            <ButtonLink className="ButtonLink" href="#">Novo Vídeo</ButtonLink>
         </nav>
     );   
 }
